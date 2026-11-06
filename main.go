@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	filePath := "Pictures/Tima.jpeg"
+	filePath := "Pictures/Unknown.jpg"
 
 	img, err := imageio.LoadImage(filePath)
 	if err != nil {
